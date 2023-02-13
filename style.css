@@ -1,0 +1,27 @@
+#frame {
+	width: 500px;
+	height: 500px;
+	border-width: 5px;
+	border: fuchsia;
+}
+
+
+circle {
+	fill: limegreen;
+}
+
+.hovered {
+	fill: orange
+}
+
+.clicked {
+	stroke: red;
+}
+
+#line {
+	stroke-width: 10px;
+}
+
+h3 {
+	text-align: center;
+}

@@ -2,13 +2,46 @@
 <html> 
 
 <head>
+
     <meta charset=utf-8/>
+    <title> ic-06 </title> 
+    <link rel="stylesheet" href="style.css">
 </head>
 
-
 <body>
+    <h1> JavaScript Part 2 </h1>
 
 
+    <div>
+        <svg id="frame">
+            <line x1="0" y1="500" x2="500" y2="500" stroke="black" class="axis"/>
+
+            <line x1="0" y1="0" x2="0" y2="500" stroke="black" class="axis"/>
+
+            <circle id = "point" cx = "450" cy = "50" r = "10"/>
+
+            <line id = "line" x1 = "1" y1 = "475" x2 = "499" y2 = "475" stroke = "darkblue"/>
+        </svg>
+    </div>
+
+
+
+    <button class = "center" id = "myBtn">
+        Click to change line color. 
+    </button>
+
+    <h3> Acknowledgements </h3>
+    <div>
+        <ul>
+            <li> https://developer.mozilla.org/en-US/docs/Web/SVG/Element/line </li>
+            <li> http://www.java2s.com/example/javascript/dom-html-element/create-svg-element-and-make-circle.html </li>
+            <li> https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input </li>
+            <li> https://www.w3schools.com/howto/howto_js_toggle_class.asp </li>
+            <li> https://stackoverflow.com/questions/1085801/get-selected-value-in-dropdown-list-using-javascript </li>
+        </ul>
+    </div>
+
+<script src = "main.js"> </script>
 </body>
 
 </html>
